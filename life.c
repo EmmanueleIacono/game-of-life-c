@@ -108,14 +108,18 @@ int main(void) {
     set_cell(old_grid, 11, 10, ALIVE);
     set_cell(old_grid, 11, 9, ALIVE);
     set_cell(old_grid, 10, 8, ALIVE);
+    char *old = old_grid;
+    char *new = new_grid;
 
     while(1) {
-        compute_new_state(old_grid, new_grid);
+        compute_new_state(old, new);
         print_grid(new_grid);
         usleep(1000000);
-        compute_new_state(new_grid, old_grid);
-        print_grid(old_grid);
-        usleep(1000000);
+
+        // swap the two pointers
+        char *tmp = old;
+        old = new;
+        new = tmp;
     }
 
     // printf("%d", count_living_neighbors(old_grid, 10, 14));

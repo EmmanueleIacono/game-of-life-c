@@ -2,7 +2,7 @@
 
 This is an implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), written in C.
 
-The project was inspired by this [Salvatore Sanfilippo's video](https://www.youtube.com/watch?v=c5atNuYdKK8), part of [his YouTube Playlist on learning C](https://www.youtube.com/playlist?list=PLrEMgOSrS_3cFJpM2gdw8EGFyRBZOyAKY).
+The project was inspired by this [Salvatore Sanfilippo's video](https://www.youtube.com/watch?v=c5atNuYdKK8) (plus this [integration](https://www.youtube.com/watch?v=msGzuneFpDU)), part of [his YouTube Playlist on learning C](https://www.youtube.com/playlist?list=PLrEMgOSrS_3cFJpM2gdw8EGFyRBZOyAKY).
 
 ---
 
